@@ -1,12 +1,16 @@
 body {
   font-family: 'Noto Sans', sans-serif;
+  // background-color: #DAE0E6;
 }
+
+// HEADER
 
 .header {
   height: 900px;
   background-image: url('../img/header-bg.jpg');
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   resize: both;
 
   &-wrapper {
@@ -77,7 +81,7 @@ body {
     &_socials {
       margin: 250px auto 0;
       width: 200px;
-      
+
       ul {
         display: flex;
         align-items: center;
@@ -91,6 +95,7 @@ body {
           cursor: pointer;
 
         }
+
         li:first-child {
           margin-left: 0;
         }
@@ -99,3 +104,50 @@ body {
 
   }
 }
+
+// / HEADER 
+
+// SERVICES
+.services {
+  margin: 150px auto 0 auto;
+  width: 1200px;
+  height: 760px;
+
+  &-wrapper {
+    &_title {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 33px;
+      color: #868585;
+    }
+
+    &-content {
+      margin-top: 60px;
+      display: flex;
+
+      &_leftside {
+        width: 600px;
+
+        &-title {
+          width: 510px;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 25px;
+          color: #303030;
+        }
+
+        &-description {
+          margin: 15px 0 50px 0;
+          width: 510px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          color: #303030;
+        }
+      }
+    }
+
+  }
+}
+
+// / SERVICES
