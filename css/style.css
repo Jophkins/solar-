@@ -111,3 +111,103 @@ body {
   line-height: 19px;
   color: #303030;
 }
+
+.greenrate {
+  margin: 150px auto 0 auto;
+  width: 1200px;
+  height: 765px;
+}
+.greenrate-wrapper_title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #868585;
+}
+.greenrate-wrapper-content {
+  margin-top: 60px;
+  display: flex;
+}
+.greenrate-wrapper-content_leftside {
+  width: 600px;
+}
+.greenrate-wrapper-content_leftside_tabs ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+.greenrate-wrapper-content_leftside_tabs ul li {
+  margin-right: 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #303030;
+  cursor: pointer;
+}
+.greenrate-wrapper-content_leftside_slider {
+  margin-top: 120px;
+  width: 510px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.greenrate-wrapper-content_leftside_slider-img {
+  width: 235px;
+}
+.greenrate-wrapper-content_leftside_slider-desc {
+  width: 235px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #303030;
+}
+.greenrate-wrapper-content_leftside_slider-desc_arrows svg {
+  margin-right: 22px;
+  cursor: pointer;
+}
+.greenrate-wrapper-content_leftside_slider-desc_arrows svg:hover path {
+  fill: #A9A32A;
+}
+.greenrate-wrapper-content_leftside_benefits {
+  margin-top: 100px;
+  width: 510px;
+  height: 215px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.greenrate-wrapper-content_leftside_benefits-row {
+  display: flex;
+  margin-bottom: 17px;
+}
+.greenrate-wrapper-content_leftside_benefits-row-item {
+  margin-right: 40px;
+  width: 235px;
+}
+.greenrate-wrapper-content_leftside_benefits-row-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #303030;
+}
+.greenrate-wrapper-content_leftside_benefits-row-item-description {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #303030;
+}
+.greenrate-wrapper-content_rightside {
+  width: 600px;
+}
+.greenrate-wrapper-content_rightside_title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #303030;
+}
+.greenrate-wrapper-content_rightside_image {
+  margin-top: 17px;
+}

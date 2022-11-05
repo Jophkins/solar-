@@ -151,3 +151,133 @@ body {
 }
 
 // / SERVICES
+
+// GREENRATE
+
+.greenrate {
+  margin: 150px auto 0 auto;
+  width: 1200px;
+  height: 765px;
+
+  &-wrapper {
+    &_title {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 33px;
+      color: #868585;
+    }
+
+    &-content {
+      margin-top: 60px;
+      display: flex;
+
+      &_leftside {
+        width: 600px;
+
+        &_tabs {
+          ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            list-style: none;
+
+            li {
+              margin-right: 40px;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 25px;
+              color: #303030;
+              cursor: pointer;
+            }
+          }
+        }
+
+        &_slider {
+          margin-top: 120px;
+          width: 510px;
+          height: 200px;
+
+          display: flex;
+          justify-content: space-between;
+
+          &-img {
+            width: 235px;
+          }
+
+          &-desc {
+            width: 235px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            color: #303030;
+
+            &_arrows {
+              svg {
+                margin-right: 22px;
+                cursor: pointer;
+              }
+
+              svg:hover path {
+                fill: #A9A32A;
+              }
+            }
+          }
+        }
+
+        &_benefits {
+          margin-top: 100px;
+          width: 510px;
+          height: 215px;
+          display: flex;
+          flex-wrap: wrap;
+
+          &-row {
+            display: flex;
+            margin-bottom: 17px;
+
+            &-item {
+              margin-right: 40px;
+              width: 235px;
+
+              &-title {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 25px;
+                color: #303030;
+              }
+
+              &-description {
+                margin-top: 5px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                color: #303030;
+              }
+            }
+          }
+
+        }
+      }
+
+      &_rightside {
+        width: 600px;
+
+        &_title {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 25px;
+          color: #303030;
+        }
+
+        &_image {
+          margin-top: 17px;
+        }
+      }
+    }
+  }
+}
+
+// / GREENRATE
