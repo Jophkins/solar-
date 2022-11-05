@@ -45,10 +45,12 @@ body {
 .header-wrapper_btn-block {
   margin: 50px auto 0 auto;
   width: 310px;
-  position: relative;
-  display: flex;
-  justify-content: start;
+}
+.header-wrapper_btn-block svg {
   cursor: pointer;
+}
+.header-wrapper_btn-block svg:hover {
+  fill: #A9A32A;
 }
 .header-wrapper_btn-block span {
   position: absolute;
@@ -210,4 +212,97 @@ body {
 }
 .greenrate-wrapper-content_rightside_image {
   margin-top: 17px;
+}
+
+.banner {
+  margin: 150px auto 0 auto;
+  width: 1920px;
+  height: 500px;
+  background-image: url("../img/banner.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  resize: both;
+}
+.banner-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.banner-wrapper_title {
+  margin-top: 130px;
+  width: 675px;
+  height: 230px;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 57px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.clients {
+  margin: 150px auto 0 auto;
+  width: 1200px;
+  height: 500px;
+}
+.clients-wrapper_title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #868585;
+}
+.clients-wrapper-content {
+  margin-top: 60px;
+  display: flex;
+}
+.clients-wrapper-content_leftside {
+  width: 600px;
+}
+.clients-wrapper-content_leftside img {
+  width: 510px;
+  height: 370px;
+}
+.clients-wrapper-content_leftside_arrows {
+  margin-top: 15px;
+  margin-left: 275px;
+}
+.clients-wrapper-content_leftside_arrows svg {
+  margin-right: 22px;
+  cursor: pointer;
+}
+.clients-wrapper-content_leftside_arrows svg:hover path {
+  fill: #A9A32A;
+}
+.clients-wrapper-content_rightside {
+  width: 600px;
+}
+.clients-wrapper-content_rightside_title {
+  width: 480px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #303030;
+}
+.clients-wrapper-content_rightside_info {
+  margin-top: 30px;
+}
+.clients-wrapper-content_rightside_info ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.clients-wrapper-content_rightside_info ul li {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #303030;
+}
+.clients-wrapper-content_rightside_btn {
+  margin-top: 65px;
+}
+.clients-wrapper-content_rightside_btn svg {
+  cursor: pointer;
+}
+.clients-wrapper-content_rightside_btn svg:hover {
+  fill: #A9A32A;
 }
