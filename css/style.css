@@ -306,3 +306,54 @@ body {
 .clients-wrapper-content_rightside_btn svg:hover {
   fill: #A9A32A;
 }
+
+.fivesteps {
+  margin: 150px auto 0 auto;
+  width: 1200px;
+  height: 730px;
+}
+.fivesteps-wrapper {
+  display: flex;
+}
+.fivesteps-wrapper_leftside {
+  width: 600px;
+}
+.fivesteps-wrapper_leftside-title {
+  width: 325px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #868585;
+}
+.fivesteps-wrapper_leftside ul {
+  margin: 60px 0 0 0;
+  padding: 0;
+  list-style: none;
+  width: 510px;
+}
+.fivesteps-wrapper_leftside ul li {
+  margin-top: 30px;
+}
+.fivesteps-wrapper_leftside ul li .number {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #868585;
+}
+.fivesteps-wrapper_leftside ul li .title {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #303030;
+}
+.fivesteps-wrapper_leftside ul li .description {
+  margin-top: 2px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #303030;
+}
+.fivesteps-wrapper_rightside {
+  width: 600px;
+}

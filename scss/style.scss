@@ -61,6 +61,7 @@ body {
       svg {
         cursor: pointer;
       }
+
       svg:hover {
         fill: #A9A32A;
       }
@@ -343,6 +344,7 @@ body {
         &_arrows {
           margin-top: 15px;
           margin-left: 275px;
+
           svg {
             margin-right: 22px;
             cursor: pointer;
@@ -385,9 +387,11 @@ body {
 
         &_btn {
           margin-top: 65px;
+
           svg {
             cursor: pointer;
           }
+
           svg:hover {
             fill: #A9A32A;
           }
@@ -398,3 +402,66 @@ body {
 }
 
 // / CLIENTS
+
+// FIVESTEPS
+
+.fivesteps {
+  margin: 150px auto 0 auto;
+  width: 1200px;
+  height: 730px;
+
+  &-wrapper {
+    display: flex;
+
+    &_leftside {
+      width: 600px;
+
+      &-title {
+        width: 325px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        color: #868585;
+      }
+
+      ul {
+        margin: 60px 0 0 0;
+        padding: 0;
+        list-style: none;
+        width: 510px;
+
+        li {
+          margin-top: 30px;
+          .number {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            color: #868585;
+          }
+
+          .title {
+            margin-top: 10px;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 25px;
+            color: #303030;
+          }
+
+          .description {
+            margin-top: 2px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            color: #303030;
+          }
+        }
+      }
+    }
+
+    &_rightside {
+      width: 600px;
+    }
+  }
+}
+
+// / FIVESTEPS
