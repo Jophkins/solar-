@@ -432,6 +432,7 @@ body {
 
         li {
           margin-top: 30px;
+
           .number {
             font-weight: 400;
             font-size: 14px;
@@ -465,3 +466,133 @@ body {
 }
 
 // / FIVESTEPS
+
+// FOOTER
+
+.footer {
+  margin: 150px auto 0 auto;
+  width: 1920px;
+  height: 730px;
+  background-image: url('../img/footer-background.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &-inner {
+    &_bottom-nav {
+      margin: 250px auto 0 auto;
+      width: 1200px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .policy {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+      }
+
+      .socials {
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          display: flex;
+
+          li {
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  &-wrapper {
+    margin: 0 auto;
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+
+    &_leftside {
+      width: 600px;
+
+      &-title {
+        margin-top: 70px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        color: #FFFFFF;
+      }
+
+      &-form {
+        margin-top: 60px;
+
+        form {
+          display: flex;
+          flex-direction: column;
+
+          input {
+            width: 510px;
+            height: 30px;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid #ffffff;
+            color: #ffffff;
+
+            &:focus {
+              outline: none;
+              border-color: #A9A32A;
+            }
+
+            &::placeholder {
+              color: #ffffff;
+            }
+
+            &:last-child {
+              margin-top: 60px;
+            }
+          }
+
+        }
+      }
+
+      &-btn {
+        margin-top: 60px;
+
+        svg {
+          cursor: pointer;
+        }
+
+        svg:hover {
+          fill: #A9A32A;
+        }
+      }
+    }
+
+    &_rightside {
+      width: 600px;
+
+      &-title {
+        margin-top: 70px;
+        margin-bottom: 60px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        color: #FFFFFF;
+      }
+
+      p {
+        margin-bottom: 30px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+// / FOOTER

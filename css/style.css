@@ -357,3 +357,105 @@ body {
 .fivesteps-wrapper_rightside {
   width: 600px;
 }
+
+.footer {
+  margin: 150px auto 0 auto;
+  width: 1920px;
+  height: 730px;
+  background-image: url("../img/footer-background.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer-inner_bottom-nav {
+  margin: 250px auto 0 auto;
+  width: 1200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-inner_bottom-nav .policy {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+.footer-inner_bottom-nav .socials ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.footer-inner_bottom-nav .socials ul li {
+  margin-right: 20px;
+}
+.footer-wrapper {
+  margin: 0 auto;
+  width: 1200px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+.footer-wrapper_leftside {
+  width: 600px;
+}
+.footer-wrapper_leftside-title {
+  margin-top: 70px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+.footer-wrapper_leftside-form {
+  margin-top: 60px;
+}
+.footer-wrapper_leftside-form form {
+  display: flex;
+  flex-direction: column;
+}
+.footer-wrapper_leftside-form form input {
+  width: 510px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+}
+.footer-wrapper_leftside-form form input:focus {
+  outline: none;
+  border-color: #A9A32A;
+}
+.footer-wrapper_leftside-form form input::placeholder {
+  color: #ffffff;
+}
+.footer-wrapper_leftside-form form input:last-child {
+  margin-top: 60px;
+}
+.footer-wrapper_leftside-btn {
+  margin-top: 60px;
+}
+.footer-wrapper_leftside-btn svg {
+  cursor: pointer;
+}
+.footer-wrapper_leftside-btn svg:hover {
+  fill: #A9A32A;
+}
+.footer-wrapper_rightside {
+  width: 600px;
+}
+.footer-wrapper_rightside-title {
+  margin-top: 70px;
+  margin-bottom: 60px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+.footer-wrapper_rightside p {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
